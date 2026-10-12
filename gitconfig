@@ -60,3 +60,12 @@
 
 [init]
   defaultBranch = master
+
+# Le Wagon identity (filled in by git_setup.sh)
+[user]
+	email = dylan.prochettemercure@ieseg.fr
+	name = Prochette Dylan
+
+# Personal identity for repos under ~/projet/ - must stay after [user]
+[includeIf "gitdir:~/projet/"]
+  path = ~/.gitconfig-projet
